@@ -25,7 +25,6 @@ header a{
     font-size: 15px;
     padding: 5px;
 }
-/* === removing default button style ===*/
 .button {
     margin: 0;
     height: auto;
@@ -111,7 +110,6 @@ header a{
 .carousel .list .item .topic{
     color: #ED1D24;
 }
-/* Old CSS structure with new button styles integrated */
 .carousel .list .item .buttons {
     display: grid;
     grid-template-columns: repeat(2, 130px);
@@ -136,8 +134,8 @@ header a{
     -webkit-transition: all 0.2s ease-in;
     -moz-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
-    font-family: Poppins; /* Retain the old font family */
-    font-weight: 500; /* Retain the old font weight */
+    font-family: Poppins; 
+    font-weight: 500; 
 }
 
 .carousel .list .item .buttons button:hover {
